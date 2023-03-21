@@ -1,0 +1,55 @@
+# Audio, Graphics and Plugins folders, not etc
+Audio/
+Graphics/
+Plugins/
+!etc/
+
+# Data folder, but not Data/Scripts folder
+Data/*
+!Data/Scripts.rxdata
+!Data/Scripts/
+
+# Certain fonts
+Fonts/pkmn*
+
+# Files in the main project folder
+Game.ini
+Game.rxproj
+RGSS*.dll
+.rubocop.yml
+animmaker.txt
+*.URL
+extendtext.txt
+knownpoint.bmp
+LICENSE
+migrate_older_savefile_to_5_0.bat
+mkxp.json
+README.md
+Savefile.lnk
+scripts_combine.rb
+scripts_extract.rb
+selpoint.bmp
+soundfont.sf2
+townmapgen.html
+x64-msvcrt-ruby300.dll
+
+# Common code editor folders & files
+.vscode/
+*.code-workspace
+.idea/
+*.mkproj
+
+# Operating system generated files & folders
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Temp files
+
+~*
+
+# Executables
+*.exe
+!Game.exe
