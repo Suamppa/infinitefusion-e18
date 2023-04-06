@@ -32,7 +32,7 @@ _Notice: These instructions are written by a contributor who learned this throug
         2. Open the source control tab
         3. Stash or discard changes
             - Because the repo is cloned from GitHub, this will only stash or discard extra files brought in by Pokemon Essentials that Infinite Fusion does not use
-    - with Git Bash:
+    - OR with Git Bash:
         1. Open the folder in Git Bash
         2. Enter `git stash --keep-index --include-untracked`
 6. If you want to edit scripts, it's highly recommended to [install Ruby](https://www.ruby-lang.org/en/)
