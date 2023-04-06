@@ -22,7 +22,7 @@ animmaker.txt
 extendtext.txt
 knownpoint.bmp
 LICENSE
-migrate_older_savefile_to_5_0.bat
+*.bat
 mkxp.json
 README.md
 Savefile.lnk
